@@ -1,6 +1,6 @@
 # API Test Automation — Python + pytest
 
-[![API tests](https://github.com/eddytest365/Python-Api-Automation/actions/workflows/tests.yml/badge.svg)](https://github.com/eddytest365/Python-Api-Automation/actions/workflows/tests.yml)
+[![API tests](https://github.com/eddytest365/api-test-automation-pytest/actions/workflows/tests.yml/badge.svg)](https://github.com/eddytest365/api-test-automation-pytest/actions/workflows/tests.yml)
 
 Suite de pruebas automatizadas para una API REST, construida con Python y pytest. Usa [JSONPlaceholder](https://jsonplaceholder.typicode.com) como API pública de práctica, así cualquiera puede clonar el repo y ejecutarla sin credenciales.
 
@@ -42,8 +42,8 @@ Python 3.12 · pytest · requests · jsonschema · Allure · GitHub Actions
 ## Cómo ejecutarla
 
 ```bash
-git clone https://github.com/eddytest365/Python-Api-Automation.git
-cd Python-Api-Automation
+git clone https://github.com/eddytest365/api-test-automation-pytest.git
+cd api-test-automation-pytest
 python -m venv .venv
 .venv/Scripts/activate          # en Linux/Mac: source .venv/bin/activate
 pip install -r requirements.txt
